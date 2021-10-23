@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 90vh;
+    text-shadow: 1.5px 1.5px 3px grey;
+}

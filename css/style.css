@@ -1,6 +1,6 @@
 @font-face {
     font-family: tf;
-    src: url(./assets/jf-openhuninn-1.1.ttf);
+    src: url(/assets/jf-openhuninn-1.1.ttf);
 }
 
 body {
@@ -8,7 +8,10 @@ body {
     background-position: center;
     background-size: cover;
     font-family: 'tf';
-    overflow: hidden;
+}
+
+main {
+    min-height: 90vh;
 }
 
 nav a {
@@ -16,6 +19,7 @@ nav a {
     text-decoration: none;
     min-width: 50px;
     display: inline-block;
+    font-size: large;
 }
 
 nav a:hover {
@@ -23,18 +27,8 @@ nav a:hover {
 }
 
 .active {
-    font-size: large;
     text-decoration: underline;
     text-underline-offset: 3px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    min-height: 90vh;
-    text-shadow: 1.5px 1.5px 3px grey;
 }
 
 footer {
